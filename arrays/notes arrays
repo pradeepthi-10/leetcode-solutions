@@ -1,0 +1,18 @@
+question : arrays 
+283.move zeros
+=>using two pointers
+🔹 p1 → traversal pointer
+🔹 p2 → position to place next non-zero
+in this problem 2 pointers means two variables p1 and p2
+first we should understand that p1 is used for traversal
+of the array 
+p2 we have to assume that it is placed at the 0
+we dont need to check if p2 is non zero and increment
+directly we have to assume 
+then check if p1 not equals 0
+we have to swap with p1 with p2 and increment p2
+at last print it
+remember p2 is not at 0 place it is at a place where the 
+next non zero element should be replaced
+
+
