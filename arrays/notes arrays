@@ -15,4 +15,17 @@ at last print it
 remember p2 is not at 0 place it is at a place where the 
 next non zero element should be replaced
 
+//question 4
+question : arrays 
+26.remove duplicates from sorted array 
+=>using two pointers
+p2:is used for traversing
+p1:points to the last unique element
+If nums[p2] is different from nums[p1], we've found a new unique value:
+=>Move p1 one step.
+=>Copy nums[p2] to nums[p1].
+eg:[1,1,2]
+now p1 is at index0 p2 is at 1 checks p1!=p2 then
+p1 moves p1++ then p2 copies value into p1 thats it
+we want count so we are printing p1+1
 
