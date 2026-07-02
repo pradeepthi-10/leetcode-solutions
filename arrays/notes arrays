@@ -46,3 +46,14 @@ Copy 3 to p1:
 [3, 2, 3]
 Nothing changes.
 Then p2--.
+ code[this also works]
+     if (nums[p1] == val && nums[p2] != val) {
+    nums[p1] = nums[p2];
+    p2--;
+    }
+   else if (nums[p1] == val && nums[p2] == val) {
+    p2--;
+    }
+   else {
+    p1++;
+    }
