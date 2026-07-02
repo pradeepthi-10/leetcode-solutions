@@ -29,3 +29,20 @@ now p1 is at index0 p2 is at 1 checks p1!=p2 then
 p1 moves p1++ then p2 copies value into p1 thats it
 we want count so we are printing p1+1
 
+//question 5
+27.remove element
+=>using two pointers
+here the main logic in this question is first p1 is from the begining
+and p2 is from ending now we should move p1 when p1 is not equal to the value becoz
+if it is equal to the value we should swap
+and the thing is we should not restrict p2 like p2!=val this is not needed
+even if it is equal or not equal from the end we should swap and decrement 
+eg:Example:
+
+[3, 2, 3]
+ ↑     ↑
+p1    p2
+Copy 3 to p1:
+[3, 2, 3]
+Nothing changes.
+Then p2--.
