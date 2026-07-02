@@ -57,3 +57,11 @@ Then p2--.
    else {
     p1++;
     }
+
+//question 6
+167.two sum II sorted array
+=>using two pointers
+this is easy one pointer starting and one ending if p1+p2>target then decrement p2
+else increment p1 here we should not print 0 based index it should be 1 based index
+so just add 1 for index
+
