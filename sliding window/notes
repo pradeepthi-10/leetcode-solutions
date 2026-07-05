@@ -1,0 +1,23 @@
+how to identify the pattern "SLIDING WINDOW"
+eg:1.fixed size window[subarray/substring of length k]
+   if it is given to calculate sum or max of size k 
+   if it is mentioned as subarray, substring
+   [10,12,-5,-45,30]
+   we have to calculate max avg of k=4
+   10+12-5-45/4;
+   for next we will start fromm i=1 12,-5,-45 is common hence we just add 30 and sub 10
+   ques:643,246
+2.Dynamic/variable window
+   size is not fixed 
+   ex:return the minimial len of a subarray whose sum is greater than or equal to target
+   [2,3,1,,2,4,3]
+   keep i and j at 0 index
+   keep i at 0 and move j untill sum is >= 7
+   ques:209,3
+3.substring or subarray char freq cond
+  at most k distinct chars
+  eq:s1="ab" s2="eibaooo"
+  return true if s2 contains a permutation of s1 false otherwise
+  use hashmap matching because ab may be s1 but in s2 we may contain ba even if it is 
+  true it returns false if we check chars
+  ques:340,567
