@@ -21,3 +21,4 @@ eg:1.fixed size window[subarray/substring of length k]
   use hashmap matching because ab may be s1 but in s2 we may contain ba even if it is 
   true it returns false if we check chars
   ques:340,567
+
