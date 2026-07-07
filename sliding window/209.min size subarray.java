@@ -21,5 +21,10 @@ class Solution {
     }
 }
 // here this prob is not fixed size it is dynamic size but we should return min leng of subarray
-// whose value is >= target we used two pointers we just have to intialize sum where begining
-// sum=sum+nums[right] 
+// whose value is >= target we used two pointers we just have to intialize sum where beginning
+// sum=sum+nums[right] which means everytime we are adding right pointer value to sum
+// then we have while loop which checks if sum is greater than or equal to target then we will check the min length of subarray
+// intially we intialized min_len to nums.length+1 because we want to find the minimum length of subarray whose sum is greater than or equal to target
+// if we intialize min_len to 0 then we will always get 0 as output because we are checking for min length of subarray 
+// if we intialize some bigger value then we will get the correct output because we are checking for min length of subarray 
+// at the end we will check if min_len is still equal to nums.length+1 then we will return 0 
