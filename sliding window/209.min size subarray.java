@@ -20,3 +20,6 @@ class Solution {
           }
     }
 }
+// here this prob is not fixed size it is dynamic size but we should return min leng of subarray
+// whose value is >= target we used two pointers we just have to intialize sum where begining
+// sum=sum+nums[right] 
