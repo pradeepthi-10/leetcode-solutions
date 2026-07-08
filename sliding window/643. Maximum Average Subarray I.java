@@ -1,6 +1,6 @@
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
-        i
+
         int right=k-1;
         int sum = 0;
         int max=0;
