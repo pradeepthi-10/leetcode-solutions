@@ -11,3 +11,6 @@ class Solution {
         }return false;
     }
 }
+// here we used hashset because it does not allow duplicate values. We iterate through the array
+// and check if the current element is already present in the hashset. If it is, we return true 
+// else false intailly we check then add the element to the hashset. This way we can check for duplicates in O(n) time complexity and O(n) space complexity.
