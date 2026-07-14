@@ -1,0 +1,14 @@
+if(map.contains(nums[i]))
+{
+    int count = map.get(nums[i]);
+    count = count+1;
+
+if(count>=n/3)
+{
+    return true;
+}
+}
+map.put(nums[i],count);
+else{
+    count++;
+}
