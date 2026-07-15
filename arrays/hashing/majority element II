@@ -24,3 +24,6 @@ class Solution {
 
     }
 }
+// here we used hashmap to store the count of each element in the array. We iterate through the array and check if the current element is already present in 
+// the hashmap. If it is, we increment the count of that element in the hashmap. If it is not present, we add it to the hashmap with a count of 1.
+// 
