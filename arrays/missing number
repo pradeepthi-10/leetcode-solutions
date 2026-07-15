@@ -14,4 +14,4 @@ class Solution {
 }
 // in this problem we only have one missing element hence we first sum all the element using for loop 
 // we have formula to calculate sum of n numbers that is n*(n+1)/2. We calculate the actual sum of n numbers 
-// now we just subtract the sum from the actual sum to get the miss This
+// now we just subtract the sum from the actual sum to get the misssing number.
