@@ -23,3 +23,4 @@ class Solution {
 }
 // this problem can also be done in other way without using list we just have to take the ans array of size min(nums1.length,nums2.length)
 //we just used arraylist because the size of new array is dynamic we dont exactly know 
+//doing the same problem using normal array is much harder using many loops
