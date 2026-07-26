@@ -1,0 +1,9 @@
+array [3,7,2,5,8]
+prefixsum array [3,10,12,17,25]
+it is cummilative sum of elements from start of the array
+code
+prefixsum[0] = arr[0]
+for(int i=1;i<length;i++)
+{
+    prefixsum[i] = prefixsum[i-1]+arr[i];
+}
