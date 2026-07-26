@@ -20,4 +20,5 @@ class NumArray {
 }
 // here we are using prefix sum pattern to solve the problem in O(1) time complexity for sumRange function
 //we just replaced array with prefix sum array in the constructor and then we just used the formula to get the sum of range in O(1) 
-//
+// here inside the constructor we wrote this.nums=nums; because we are using the same array to store the prefix sum and then we are using it in sumRange function 
+// we can also use another array to store the prefix sum but that would take extra space and we can avoid that by using the same array to store the prefix sum
