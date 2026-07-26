@@ -16,3 +16,5 @@ class Solution {
         return -1;
     }
 }
+// in this prblm we have to find the pivot index of the array where the sum of the elements to the left of the index is equal to the sum of the elements to the right of the index.
+//we calc total sum first then leftsum=0 and rightsum=total sum-leftsum-arr[i] then we check if leftsum==rightsum then return index else leftsum+=arr[i] and continue the loop. if no index found return -1
