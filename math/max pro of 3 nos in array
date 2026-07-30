@@ -1,0 +1,15 @@
+class Solution {
+    public int maximumProduct(int[] nums) {
+        Arrays.sort(nums);
+        int a = nums[nums.length - 1]; 
+        int b = nums[nums.length - 2]; 
+        int c = nums[nums.length - 3];
+        int pro = a*b*c;
+        int neg = nums[0]*nums[1]*a;
+       int max =  Math.max(pro,neg);
+        return max;
+        
+    }
+}
+//but the array may contain -ve nos as well so we need to consider the product of 2 smallest nos and the largest no as well.
+//here we are sorting the array and then taking the product of the 3 largest nos and the product of 2 smallest nos and the largest no and returning the maximum of both.
