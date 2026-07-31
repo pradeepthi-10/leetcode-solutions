@@ -9,3 +9,16 @@ for(int i=0;i<n;i++>){
 here in every iteration we calculate sum of every subarray and compare
 time complexity woukld be o(nsquare)
 hence we use kadanes algorithm to enhance and decrease the timecomplexity to o(n)
+in this we keep track of the maximum sum so far and the current sum at each index if the current sum becomes negative we reset it to 0 and continue to the next index
+let us see the code for kadanes algorithm
+for(int i=0;i<n;i++){
+    currentSum = currentSum + arr[i];
+    if(currentSum > maxSum){
+        maxSum = currentSum;
+    }
+    if(currentSum < 0){
+        currentSum = 0;
+    }
+}
+in this we should not intialize maxsum as 0 because if all the elements are negative then the maximum sum would be the maximum element in the array which is negative so we should initialize maxsum as Integer.MIN_VALUE
+or we can initialize maxsum as arr[0] and currentSum as 0 
