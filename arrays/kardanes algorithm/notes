@@ -1,0 +1,11 @@
+here for the  given array if we want to find maximum sum of the subarray our brute force approach would be 
+for(int i=0;i<n;i++>){
+        sum =0;
+    for(int j=i;j<n;j++>){
+       sum = sum+arr[i];
+       max sum = Math.max(sum,maxsum);
+    }
+}
+here in every iteration we calculate sum of every subarray and compare
+time complexity woukld be o(nsquare)
+hence we use kadanes algorithm to enhance and decrease the timecomplexity to o(n)
