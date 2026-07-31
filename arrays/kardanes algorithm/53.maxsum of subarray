@@ -12,4 +12,5 @@ class Solution {
     return maxsum;
 }
 }
-//
+//we just have to apply kadanas algorithm directly in this just the idea is we have to 
+//make currentsum 0 if currentsumis -ve and start fresh
