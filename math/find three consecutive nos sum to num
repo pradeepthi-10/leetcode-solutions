@@ -14,3 +14,5 @@ class Solution {
         
     }
 }
+// its just a math probl without any loops or recursion. we can find the first number by subtracting 3 from the given number and dividing it by 3. then we can find the next two numbers by adding 1 and 2 to the first number. if the given number is not divisible by 3, then we return an empty array.
+// Time complexity: O(1)
