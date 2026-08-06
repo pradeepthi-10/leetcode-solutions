@@ -26,3 +26,4 @@ class Solution {
         return -1;
     }
 }
+//we used binary search to find the target in a rotated sorted array. The key idea is to determine which half of the array is sorted and then decide whether to search in the left or right half based on the target's value.
