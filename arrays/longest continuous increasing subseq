@@ -14,4 +14,5 @@ class Solution {
         return maxcount;
     }
 }
-//
+//we used a simple linear scan to find the length of the longest continuous increasing subsequence. We maintain a count of the current increasing sequence and update the maximum count whenever we encounter a break in the sequence.
+//the time complexity of this solution is O(n), where n is the length of the input array, and the space complexity is O(1) since we are using a constant amount of extra space.
