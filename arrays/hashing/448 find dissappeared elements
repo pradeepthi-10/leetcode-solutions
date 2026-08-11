@@ -14,4 +14,4 @@ class Solution {
     }
 }
 // we found the disappeared elements in the array by using a hashset. We first add all the elements of the array to the hashset. Then we iterate through the numbers from 1 to n (where n is the length of the array) and check if each number is present in the hashset. If a number is not present, we add it to the result list. Finally, we return the list of disappeared numbers. This approach has a time complexity of O(n) and a space complexity of O(n).
-//we shoild
+//we should not foget to add elements to the hashset because it will help us to check if the number is present in the array or not. If
