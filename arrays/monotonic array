@@ -13,3 +13,4 @@ class Solution {
     return true;
 }
 }
+// here if it is increasing or decreasing return true 
