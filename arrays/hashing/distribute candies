@@ -13,3 +13,4 @@ class Solution {
     return Math.min(n,m);
 }
 }
+// in thi s problem we have to find the maximum number of different types of candies that can be given to a sister. we can use a hashset to store the different types of candies and then return the minimum of the size of the hashset and half of the total number of candies. this is because the sister can only get half of the total number of candies.
