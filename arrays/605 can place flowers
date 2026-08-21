@@ -22,4 +22,4 @@ class Solution {
         return false;     
 }
 }
-//
+//in this code we are checking if we can place n flowers in the flowerbed array without violating the rule that no two flowers can be adjacent. We iterate through the flowerbed array and check if the current position is empty (0) and if the adjacent positions are also empty or out of 
