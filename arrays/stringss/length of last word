@@ -10,4 +10,4 @@ class Solution {
   
     }
 }
-//we are splitting the input string s into an array of words using the split method with a space as the delimiter. Then, we
+//we are splitting the input string s into an array of words using the split method with a space as the delimiter. Then, we access the last word in the array and return its length. This gives us the length of the last word in the input string.
