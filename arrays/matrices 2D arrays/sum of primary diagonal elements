@@ -16,3 +16,6 @@ class Solution {
         return sum+add;
     }
 }
+// here diagonal elements exist only for square matrices 
+//then the sum of primary diagonal elements is calculated by iterating through the matrix and adding the elements at positions (i, i) for the primary diagonal and (i, n-i-1) for the secondary diagonal. If the matrix is not square, this code will not work correctly as it assumes a square matrix.
+//because secondary diagonal elements are (0,2) (1,1)(2,0) which means j=i-n-1 so we used it defined 
