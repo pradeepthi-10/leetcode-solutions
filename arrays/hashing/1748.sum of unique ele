@@ -20,4 +20,6 @@ class Solution {
 }
 // in this problem i used hashmap because i have to get the freq of an ele in array 
 //first we have to declare a hashmap then we have to put elements into the map so before putting 
-// we are
+// we are actually chceking if it is already present we used map.containsKey(num,map.get(num)+1)
+// which means we know that it is already present to we are getting its vaklue and increasing by 1 
+//which means element appeared that many times
