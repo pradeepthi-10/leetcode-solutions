@@ -24,3 +24,4 @@ class Solution {
 // which means we know that it is already present to we are getting its vaklue and increasing by 1 
 //which means element appeared that many times
 //we have put method if the element is not present map.put(num, 1)
+// this is the sol
