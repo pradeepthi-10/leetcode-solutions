@@ -19,4 +19,5 @@ class Solution {
     }
 }
 // in this problem i used hashmap because i have to get the freq of an ele in array 
-//fir
+//first we have to declare a hashmap then we have to put elements into the map so before putting 
+// we are
