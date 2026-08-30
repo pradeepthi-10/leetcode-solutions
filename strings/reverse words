@@ -12,4 +12,4 @@ class Solution {
     }
 }
 // trim removes extra sdpaces at the end of the string.
-//
+// in this code, we first split the input string into words using the split method. Then, we iterate through each word and reverse it by iterating through its characters in reverse order. We concatenate the reversed words to the ans string, adding a space after each word. Finally, we return the ans string after trimming any extra spaces at the end.
