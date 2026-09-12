@@ -13,3 +13,4 @@ class Solution {
     return a;
     }
 }
+//we are adding all alphabet characters to a set and checking if the size of the 
