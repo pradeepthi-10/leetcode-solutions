@@ -23,4 +23,4 @@ class Solution {
     }
 }
 //in this problem we are trying to find all unique triplets in the array which gives the sum of zero. We first sort the array and then iterate through the array. For each element, we use a hash map to find if there exists a pair of numbers that sum up to the negative of the current element. If such a pair is found, we add the triplet to the result 
-//if the current element is the same as the previous element, we skip it to avoid duplicates. Finally, we return the list of unique triplets. This approach has a time complexity 
+//if the current element is the same as the previous element, we skip it to avoid duplicates. Finally, we return the list of unique triplets. This approach has a time complexity of O(n^2) and a space complexity of O(n).
