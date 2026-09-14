@@ -22,3 +22,4 @@ class Solution {
         return result;
     }
 }
+//in this problem we are trying to find all unique triplets in the array which gives the sum of zero. We first sort the array and then iterate through 
